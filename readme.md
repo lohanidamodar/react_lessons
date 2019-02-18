@@ -23,3 +23,14 @@
 4. Understanding Props and State
 6. Events
 7. Routing
+
+
+## Lessons
+1. Lesson 1 (Basic Component in React.)
+
+    In this lesson you will
+    - Learn to setup react development with all dependencies loaded from CDN in your browser.
+    - Create your first react component (Class based component)
+    - Render you component to the DOM
+    - Learn to write JSX
+    - Learn to write dynamic javascript expression inside JSX
