@@ -21,6 +21,9 @@
 
     - JSX (Javascript and XML) let's us write HTML in javascript.
 4. Understanding Props and State
+    
+    - State of the component describes the current state of the component (data or ui-state)
+    - State can be updated over time
 6. Events
 7. Routing
 
@@ -34,3 +37,10 @@
     - Render you component to the DOM
     - Learn to write JSX
     - Learn to write dynamic javascript expression inside JSX
+2. Lesson 2 (Component State)
+
+    In this lesson you will learn to
+    - Use state
+    - Update state based on user interaction
+    - Display or remove ui element from dom based on state property
+    - Display values from state in the UI
