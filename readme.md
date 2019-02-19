@@ -44,3 +44,10 @@
     - Update state based on user interaction
     - Display or remove ui element from dom based on state property
     - Display values from state in the UI
+
+3. Lesson 3 (Forms)
+
+    In this lesson you will learn to
+    - Handle form inputs
+    - Use form inputs in real time
+    - Handle form submit events
