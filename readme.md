@@ -59,3 +59,10 @@
     - Learn to use props
     - Display props in the UI
     - Pass props while loading component
+
+5. Lesson 5 (Cycling through data)
+
+    In this lesson you will learn to
+    - Cycle through data in an array
+    - Transform data in array using map
+    - Transform and render data in array using map
