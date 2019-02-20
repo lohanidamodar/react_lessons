@@ -51,3 +51,11 @@
     - Handle form inputs
     - Use form inputs in real time
     - Handle form submit events
+
+4. Lesson 4 (Props)
+
+    In this lesson you will
+    - Understand what props is
+    - Learn to use props
+    - Display props in the UI
+    - Pass props while loading component
