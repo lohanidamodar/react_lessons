@@ -66,3 +66,11 @@
     - Cycle through data in an array
     - Transform data in array using map
     - Transform and render data in array using map
+
+6. Lesson 6 (create-react-app)
+    
+    In this lesson you will learn to
+    - Install npm package globally (`npm install -g create-react-app`)
+    - Use create-react-app to create new react project (`create-react-app first_react_app`)
+    - Run your react app created using create-react-app (`npm start`)
+    - Understand the basic structure of react app created using create-react-app
