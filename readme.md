@@ -81,3 +81,11 @@
     - render or hide an item based on conditions
     - use two kinds of ternary operator to conditionally render items in components
     
+8. Lesson 8 (Forms and Functions as Props)
+
+    In this lesson you will learn to
+    - Create form and save form data to local state
+    - Handle form submit action to log form data
+    - Pass function as props
+    - Call a function in parent component from child component
+    - Update parent state from child component 
