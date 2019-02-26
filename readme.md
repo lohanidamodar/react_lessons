@@ -74,3 +74,10 @@
     - Use create-react-app to create new react project (`create-react-app first_react_app`)
     - Run your react app created using create-react-app (`npm start`)
     - Understand the basic structure of react app created using create-react-app
+
+7. Lesson 7 (Conditional rendering)
+
+    In this lesson you will learn to
+    - render or hide an item based on conditions
+    - use two kinds of ternary operator to conditionally render items in components
+    
