@@ -89,3 +89,11 @@
     - Pass function as props
     - Call a function in parent component from child component
     - Update parent state from child component 
+
+9. Lesson 9 (Lifecycle methods)
+
+    In this lesson you will learn to use lifecycle methods of class based components
+    
+    [Review this diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+    - 
