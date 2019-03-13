@@ -1,9 +1,10 @@
 import React from 'react'
 
-const TodoList = ({todos}) => {
+const TodoList = ({todos, deleteTodo}) => {
   return (
     <div className="collection">
-     { todos.map(todo => <p key={todo.id} className="collection-item">{todo.content}</p>)}
+     { todos.map(todo => 
+        <p key={todo.id} onClick={(e)=>deleteTodo(todo.id)} className="collection-item">{todo.content}</p>)}
     </div>
   )
 }

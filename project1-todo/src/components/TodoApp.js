@@ -18,13 +18,18 @@ class TodoApp extends Component {
     this.setState({todos});
   }
 
+  deleteTodo = (id) => {
+    const todos = this.state.todos.filter(todo => todo.id !== id); //es6 filter method
+    this.setState({todos});
+  }
+
   render() {
     const { todos } = this.state; //destructuring objects
     return (
       <div className="App">
         <Navbar />
         <div className="container">
-          <TodoList todos={todos} />
+          <TodoList deleteTodo={this.deleteTodo} todos={todos} />
           <AddForm addTodo={this.addTodo} />
         </div>
       </div>
