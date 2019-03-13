@@ -3,6 +3,7 @@ import './TodoApp.css';
 import 'materialize-css/dist/css/materialize.min.css'
 import Navbar from './Navbar';
 import TodoList from './TodoList';
+import AddForm from './AddForm';
 
 class TodoApp extends Component {
   state = {
@@ -11,6 +12,12 @@ class TodoApp extends Component {
       {id: 2, content: "Watch movie"},
     ]
   }
+  
+  addTodo = (todo) => {
+    const todos = [...this.state.todos, todo]; //spread operator ...
+    this.setState({todos});
+  }
+
   render() {
     const { todos } = this.state; //destructuring objects
     return (
@@ -18,6 +25,7 @@ class TodoApp extends Component {
         <Navbar />
         <div className="container">
           <TodoList todos={todos} />
+          <AddForm addTodo={this.addTodo} />
         </div>
       </div>
     );
