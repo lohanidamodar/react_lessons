@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import TodoList from '../components/TodoList';
+import AddForm from '../components/AddForm';
 
 class Home extends Component {
     state = {
