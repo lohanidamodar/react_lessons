@@ -21,6 +21,7 @@ class Home extends Component {
     }
 
     render(){
+        console.log(this.props);
         const { todos } = this.state; //destructuring objects
         return (
             <div className="container">

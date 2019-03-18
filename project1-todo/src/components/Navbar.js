@@ -1,7 +1,11 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, withRouter } from 'react-router-dom'
 
 const Navbar = (props) => {
+  console.log("navbar:", props);
+  // setTimeout(()=>{
+  //   props.history.push('/about');
+  // }, 3000)
   return (
     <nav>
       <div className="nav-wrapper">
@@ -16,4 +20,4 @@ const Navbar = (props) => {
   )
 }
 
-export default Navbar
+export default withRouter(Navbar)
